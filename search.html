@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling - Fly with us</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/results.css">
+
+    <script src="https://kit.fontawesome.com/b45f3b1a2a.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="header-top pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col text-right">
+              <a href="">
+                LOGIN
+              </a>
+              <a href="" class="ml-3">
+                SIGNUP
+              </a>
+              <a href="" class="ml-3">
+                USD
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-2 pb-2">
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="images/logo.jpg" alt="Traveling">
+          </div>
+          <div class="col text-right header-main-menu">
+            <a href="">
+              HOME
+            </a>
+            <a href="" class="ml-3">
+              SALES
+            </a>
+            <a href="" class="ml-3">
+              REVIEWS
+            </a>
+            <a href="" class="ml-3">
+              NEWS
+            </a>
+            <a href="" class="ml-3">
+              CONTACTS
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="results mt-3 pb-5 pt-5">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5">
+            <button class="btn btn-light btn-white pr-5 pl-5">
+              <i class="fas fa-bell"></i>
+              Ricevi avvisi di <br> prezzo
+            </button>
+
+            <div class="card mt-4">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-search"></i>
+                    <a href="#">Sponsor.com</a>
+                  </div>
+                  <div class="col text-right">
+                    <span class="adv">Annuncio</span>
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col">
+                    <h5>Titolo dell'ad</h5>
+                    <p>Trova voli per Roma</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-right">
+                    <a href="" class="btn btn-info">
+                      Vai al sito
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col">
+
+            <div class="row results-items">
+              <div class="col-lg-8">
+                <div class="card first">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <img class="img-fluid" src="data:image/png;base64,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" alt="Alitalia">
+                      </div>
+                      <div class="col text-right">
+                        <p class="time">11:00</p>
+                        <p>FCO</p>
+                      </div>
+                      <div class="col duration">
+                        <div class="row">
+                          <div class="col text-center">
+                            1h 15min
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col">
+                            <hr>
+                          </div>
+                          <div class="col-auto">
+                            <i class="fas fa-plane"></i>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col text-center">
+                            <span class="type">diretto</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col text-left">
+                        <p class="time">11:00</p>
+                        <p>FCO</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card second">
+                  <div class="card-body text-center">
+                    <p class="price">97€</p>
+                    <a href="" class="btn btn-info">Prenota <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <footer>
+
+    </footer>
+
+  </body>
+
+</html>
